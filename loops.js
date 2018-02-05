@@ -20,7 +20,7 @@ function doWhileLoop(arr) {
     return Math.random() >= 0.5
   }
   do {
-    arr.unshift()
+    delete arr[arr.length-1]
   }
   while (arr.length>0 && maybeTrue());
   return arr
