@@ -22,5 +22,5 @@ function doWhileLoop(arr) {
   do {
     arr = arr.unshift
   }
-  while arr.length>0 && 
+  while arr.length>0 && maybeTrue()
 }
