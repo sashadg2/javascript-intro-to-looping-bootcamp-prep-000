@@ -14,3 +14,13 @@ function whileLoop(num) {
   }
   return 'done'
 }
+
+function doWhileLoop(arr) {
+  function maybeTrue() {
+    Math.random() >= 0.5
+  }
+  do {
+    arr = arr.unshift
+  }
+  while arr.length>0 && 
+}
