@@ -6,3 +6,10 @@ function forLoop(arr) {
 }
 var arra = []
 forLoop(arra)
+
+function whileLoop(num) {
+  while (num>0) {
+    console.log(num)
+    num = num-1
+  }
+}
